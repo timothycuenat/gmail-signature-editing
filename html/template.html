@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+</head>
+<body style="margin: 0; padding: 0; font-family: Roboto,'Helvetica Neue',Helvetica,Arial,sans-serif;">
+<div class="content">
+    <table style="background-color: transparent; border: none; border-collapse: collapse; border-spacing: 0px; margin-bottom: 10px;">
+        <tr>
+            <td>
+                <img
+                        src="MY_LOGO_URL"
+                        alt="MY_LOGO_ALT"
+                        style="display: block; margin: 0 auto; width: 60px; height: 60px; user-select: none;">
+            </td>
+            <td style="padding-left: 16px">
+                <h1 style="color: #00529b; font-size: 18px; line-height: 22px; font-weight: bold; font-style: normal; margin: 0;">
+                    MY_TITLE</h1>
+            </td>
+        </tr>
+    </table>
+    <div class="info"
+         style="font-size: 14px; line-height: 17px; font-style: normal; font-weight: bold; color: #00529b;">${full_name}
+        - ${title}
+    </div>
+    <div class="address"
+         style="font-size: 10px; line-height: 12px; font-style: normal; color: #00529b; font-weight: normal;">
+        ${address}
+    </div>
+    <div class="phone-website"
+         style="font-size: 12px; line-height: 15px; font-style: normal; color: #00529b; font-weight: normal;"><a
+            href="tel:+${phone}" style="cursor: pointer; color: #00529b; text-decoration: none;">+${phone}</a> | <a
+            href="MY_URL" target="_blank"
+            style="cursor: pointer; color: #00529b; text-decoration: none;">MY_URL</a></div>
+    <div class="email"
+         style="font-size: 12px; line-height: 15px; font-style: normal; color: #00529b; font-weight: normal;"><a
+            href="mailto:${email}" style="cursor: pointer; color: #00529b; text-decoration: none;">${email}</a></div>
+</div>
+</body>
+</html>
