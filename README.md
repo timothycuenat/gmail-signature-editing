@@ -4,6 +4,8 @@ Author: Timothy Cuenat
 Date: 23.11.2023
 Version: 1.0.0
 
+What does that repo do : Modifying email signatures with the Gmail API
+
 Welcome to the Gmail Signature Editing Script repository! This script is a powerful tool designed for administrators of
 Google Workspace. It allows you to efficiently manage and modify the email signatures of all users within your Google
 Workspace domain, streamlining the process of maintaining a consistent and professional email signature across your
