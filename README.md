@@ -16,7 +16,7 @@ organization.
 3. Edit the HTML template with the fields you want to use in your signature.
 4. Edit `gmail_signature_editing.py` with the fields you want to use in your signature.
 
-## Gmail Signature Editing
+## Script
 
 1. Create a virtual environment (VENV):
 
