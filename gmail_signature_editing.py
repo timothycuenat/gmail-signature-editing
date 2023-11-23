@@ -89,7 +89,7 @@ def main():
         retry_count = 0
         while retry_count < 3:
             try:
-                print(f"    Trying to change signature ...")
+                print(f"    Changing signature ...")
                 update_sig(full_name=full_name,
                            title=title,
                            email=email,
