@@ -1,49 +1,66 @@
 # Gmail Signature Editing
 
-Author: Timothy Cuenat
-Date: 23.11.2023
+Author: Timothy Cuenat  
+Date: 23.11.2023  
 Version: 1.0.0
 
-What does that repo do : Modifying email signatures with the Gmail API
+Bulk update and manage Google Workspace user email signatures with the Gmail API.
 
-Welcome to the Gmail Signature Editing Script repository! This script is a powerful tool designed for administrators of
-Google Workspace. It allows you to efficiently manage and modify the email signatures of all users within your Google
-Workspace domain, streamlining the process of maintaining a consistent and professional email signature across your
-organization.
+This project helps Google Workspace administrators standardize and automate Gmail signatures across a domain.  
+Use it to apply a professional, consistent HTML signature to many users at once using data from a spreadsheet.
 
-## Prepare
+## Why this script?
 
-1. Prepare the fields you want in your signature in a .xslx file.
-2. Prepare the Google API credentials in a .json file (create a Google Services account).
-3. Edit the HTML template with the fields you want to use in your signature.
-4. Edit `gmail_signature_editing.py` with the fields you want to use in your signature.
+- Save time compared to manual signature updates
+- Keep company branding consistent
+- Generate dynamic signatures from user data (name, role, phone, etc.)
+- Automate Gmail signature deployment for Google Workspace
 
-## Script
+## Keywords
 
-1. Create a virtual environment (VENV):
+Gmail signature, Gmail API, Google Workspace, bulk signature update, email signature management, domain-wide delegation, admin automation, Python Gmail script, HTML email signature template.
+
+## Preparation
+
+1. Prepare the fields you want in your signature in an `.xlsx` file.
+2. Prepare Google API credentials in a `.json` file (Google service account).
+3. Edit the HTML template with the fields/placeholders you want to use.
+4. Edit `gmail_signature_editing.py` to map your placeholders and data fields.
+
+## Run the script
+
+1. Create a virtual environment:
 
    ```bash
    python -m venv venv
-    ```
-2. Activate the VENV:
+   ```
+
+2. Activate the virtual environment:
 
    ```bash
    source venv/bin/activate
    ```
-3. Install the requirements:
+
+3. Install dependencies:
 
    ```bash
-    pip install -r requirements.txt
-    ```
+   pip install -r requirements.txt
+   ```
+
 4. Run the script:
 
    ```bash
-    python gmail_signature_editing.py
-    ```
+   python gmail_signature_editing.py
+   ```
 
-5. Select .xslx file with data
+5. Select the `.xlsx` file containing user data.
+6. Select the `.json` file containing Google API credentials.
+7. Let the script update Gmail signatures.
 
-6. Select .json file with Google API credentials
+## Typical use cases
 
-7. Enjoy!
+- Roll out a new company signature format
+- Update signatures after rebranding
+- Apply legal disclaimers consistently
+- Synchronize signatures after HR/user data changes
 
